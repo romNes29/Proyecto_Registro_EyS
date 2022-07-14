@@ -33,5 +33,11 @@ namespace Presentacion
         {
             Application.Exit();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Marcas fMarcas = new Marcas();
+            fMarcas.Show();
+        }
     }
 }
